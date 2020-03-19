@@ -1,0 +1,44 @@
+.banner {
+  background-image: url(images/mnm-all-46Yad80Ynp4-unsplash.jpg);
+  background-size: cover;
+  color: white;
+  height: 250px;
+  padding: 70px;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(180, 180, 180);
+  font-style: oblique;
+}
+
+h2 {
+  color: rgb(50, 50, 50)
+  font-style: italic;
+  text-align: justify;
+}
+
+.first-link {
+  text-decoration: none;
+  font-family: 'Bellota Text', cursive;
+  color: rgb(180, 180, 180);
+  font-size: 20px;
+}
+
+.first-link:hover {
+  text-decoration: none;
+  font-family: 'Bellota Text', cursive;
+  font-style: italic;
+  color: rgb(150, 150, 150);
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
